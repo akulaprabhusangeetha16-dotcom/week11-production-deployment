@@ -1,2 +1,10 @@
-# week11-production-deployment
-Production-ready Python application deployment using Docker, Docker Compose, and CI/CD pipeline.
+# Week 11 Production Deployment
+
+## Run Project
+
+docker-compose -f docker/docker-compose.yml up --build
+
+## Features
+- Dockerized app
+- CI/CD pipeline
+- Health check endpoint
